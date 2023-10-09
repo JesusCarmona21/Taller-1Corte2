@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Interés Compuesto</title>
+    <script src="../js/ejercicio7.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora de Interés Compuesto</h1>
+
+    <label for="capitalInicial">Capital Inicial:</label>
+    <input type="number" id="capitalInicial" required><br>
+
+    <label for="tasaInteres">Tasa de Interés Anual (%):</label>
+    <input type="number" id="tasaInteres" required><br>
+
+    <label for="periodoInversion">Período de Inversión (años):</label>
+    <input type="number" id="periodoInversion" required><br>
+
+    <button onclick="calcularMontoFinal()">Calcular Monto Final</button>
+
+    <h2>Resultado:</h2>
+    <p id="resultado"></p>
+</body>
+
+</html>
